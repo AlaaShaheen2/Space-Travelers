@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import './Rocket.scss';
+import PropTypes from 'prop-types';
 import Aos from 'aos';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
