@@ -18,7 +18,7 @@ export default function RocketList() {
     if ((rockets.length) === 0) {
       dispatch(getRockets());
     }
-  }, [dispatch, rockets.length]);
+  }, [dispatch]);
 
   return (
     <div className="rocket-list-container" data-testid="rocket-list-test">
