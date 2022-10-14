@@ -1,7 +1,7 @@
 import './Rockets.css';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchRockets } from '../../redux/Rockets/rocketsSlice';
+import { recRockets } from '../../redux/Rockets/rocketsSlice';
 import Rocket from './Rocket';
 
 const Rockets = () => {
@@ -9,7 +9,7 @@ const Rockets = () => {
   const rocketsData = useSelector((state) => state.rockets);
   useEffect(() => {
     if (!rocketsData.length) {
-      dispatch(fetchRockets());
+      dispatch(recRockets());
     }
   });
   return (
