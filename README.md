@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# React Group Project: Space Traveler's Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This app is built using React, Redux, SpaceX APIs, and react bootstrap and it allows you to:
+
+> * See SpaceX Rockets.
+> * Reserve a rocket.
+> * See your reserved rockets on your profile.
+
+
+## Built With
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **react-bootstrap**
+- **Gitflow**
+- **React**
+- **Redux**
+- **SpaceX APIs**
+
+[Live Demo](https://)
+
+## Getting Started
+
+### Steps to run the project
+
+#### 1 - Git Clone.
+
+```
+git clone https://github.com/AlaaShaheen2/Space-Travelers.git
+```
+#### 2 - Install node packages.
+
+```
+npm install
+```
+
+#### 3 - run the project
+
+```
+npm start
+```
 
 ## Available Scripts
 
@@ -8,26 +47,15 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in the development mode.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder.
 
 ### `npm run eject`
 
@@ -35,12 +63,27 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Author
+👤 **Alaa Shaheen**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- GitHub: [@AlaaShaheen2](https://github.com/AlaaShaheen2)
+- Twitter: [@Alaa Shaheen](https://twitter.com/AlaaShaheen93)
+- LinkedIn: [@Alaa Shaheen](https://www.linkedin.com/in/alaa-shaheen-879140240/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> Thanks to all the developers whose code was used.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Please give a ⭐️ if you like this project!
+
+## 📝 License
+- This project is [MIT](./LICENSE) licensed.
