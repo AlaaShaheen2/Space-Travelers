@@ -4,8 +4,8 @@ const Rocket = (props) => {
   const { rocket } = props;
   return (
     <div className="rocket-card">
-      <div>
-        <img src={rocket.flickr_images[0]} alt={rocket.rocket_name} className="rocket-pic" />
+      <div className="rocket-pic">
+        <img src={rocket.flickr_images[0]} alt={rocket.rocket_name} className="pic" />
       </div>
 
       <div className="rocket-info">
