@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 import Img from '../../assets/logo.png';
 
 const Navbar = () => (
@@ -9,9 +10,15 @@ const Navbar = () => (
     </div>
     <nav className="navbar">
       <ul className="navbar-list">
-        <li>Rockets</li>
-        <li>Missions</li>
-        <li>My Profile</li>
+        <li>
+          <NavLink to="/"> Rockets </NavLink>
+        </li>
+        <li>
+          <NavLink to="/missions"> Missions </NavLink>
+        </li>
+        <li>
+          <NavLink to="/profile"> My Profle </NavLink>
+        </li>
       </ul>
     </nav>
   </header>
