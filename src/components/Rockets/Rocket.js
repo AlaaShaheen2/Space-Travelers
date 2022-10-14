@@ -1,30 +1,31 @@
-import Button from 'react-bootstrap/Button';
 import PropTypes from 'prop-types';
 
 const Rocket = (props) => {
-  const { name, description } = props;
+  const { rocket } = props;
   return (
     <div className="rocket-card">
-      <div>
-        <img src="empty" alt="rocket" className="rocket-pic" />
+      <div className="rocket-pic">
+        <img src={rocket.flickr_images[0]} alt={rocket.rocket_name} className="pic" />
       </div>
 
       <div className="rocket-info">
         <div className="rocket-name">
-          <span>{name}</span>
+          <span>{rocket.rocket_name}</span>
         </div>
         <div className="rocket-desc">
-          <span>{description}</span>
+          <span>{rocket.description}</span>
         </div>
-        <Button type="button" variant="primary" className="booking-btn">Reserve Rocket</Button>
       </div>
     </div>
   );
 };
 
 Rocket.propTypes = {
-  name: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  rocket: PropTypes.shape({
+    rocket_name: PropTypes.string,
+    description: PropTypes.string,
+    flickr_images: PropTypes.arrayOf(PropTypes.string),
+  }).isRequired,
 };
 
 export default Rocket;
