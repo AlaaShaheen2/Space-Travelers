@@ -1,5 +1,5 @@
 .app-header {
-  background-color: #FDFDBD;
+  background-color: #fdfdbd;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,6 +43,6 @@ ul.navbar-list {
   margin-bottom: 0;
 }
 
-.active{
+.active {
   border-bottom: 1px solid #372948;
 }

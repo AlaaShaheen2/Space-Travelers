@@ -5,12 +5,12 @@
   border: 1px solid #372948;
   border-radius: 10px;
   padding: 15px;
-  background-color: #ADDDD0;
+  background-color: #adddd0;
   box-sizing: border-box;
 }
 
 .rocket-card:nth-child(2n-1) {
-  background-color: #FFCACA;
+  background-color: #ffcaca;
 }
 
 .rockets-container {
