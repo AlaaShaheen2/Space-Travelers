@@ -6,6 +6,8 @@
 > * Reserve a rocket.
 > * See your reserved rockets on your profile.
 
+## Snapshoot for the project : 
+![Space Travelers snapshoot](./space.png)
 
 ## Built With
 
