@@ -14,7 +14,7 @@ const Profile = () => {
       </Col>
       <Col>
         <h4 className="title">Rockets</h4>
-        <Table striped bordered variant="danger">
+        <Table striped bordered variant="primary">
           <tbody>
             {reservedRockets.map((rocket) => (
               <tr key={rocket.rocket_id}>
