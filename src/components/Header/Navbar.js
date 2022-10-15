@@ -6,7 +6,7 @@ const Navbar = () => (
   <header className="app-header">
     <div className="logo-container">
       <img src={Img} alt="logo" className="logo-pic" />
-      <span className="app-title">Space Travelers Hub</span>
+      <span className="app-title">Space Travelers&apos; Hub</span>
     </div>
     <nav className="navbar">
       <ul className="navbar-list">
