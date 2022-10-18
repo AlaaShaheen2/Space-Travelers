@@ -1,0 +1,40 @@
+.rocket-card {
+  display: flex;
+  gap: 50px;
+  margin: 15px 0;
+  border: 1px solid #372948;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #adddd0;
+  box-sizing: border-box;
+}
+
+.rocket-card:nth-child(2n-1) {
+  background-color: #ffcaca;
+}
+
+.rockets-container {
+  margin-top: 30px;
+}
+
+.rocket-pic {
+  width: 30%;
+}
+
+.pic {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px dashed #372948;
+}
+
+.rocket-name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.rocket-desc {
+  margin: 16px 0;
+  font-size: larger;
+}
